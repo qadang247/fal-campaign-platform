@@ -13,6 +13,15 @@ import Login from '@/pages/Login';
 import Register from '@/pages/Register';
 import ForgotPassword from '@/pages/ForgotPassword';
 import ResetPassword from '@/pages/ResetPassword';
+import About from '@/pages/About';
+import Voices from '@/pages/Voices';
+import Wards from '@/pages/Wards';
+import Events from '@/pages/Events';
+import Media from '@/pages/Media';
+import Volunteer from '@/pages/Volunteer';
+import Donate from '@/pages/Donate';
+import Faq from '@/pages/Faq';
+import Contact from '@/pages/Contact';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -43,6 +52,15 @@ const AuthenticatedApp = () => {
       {/* Public campaign site */}
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/voices" element={<Voices />} />
+        <Route path="/wards" element={<Wards />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/media" element={<Media />} />
+        <Route path="/volunteer" element={<Volunteer />} />
+        <Route path="/donate" element={<Donate />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/contact" element={<Contact />} />
       </Route>
       {/* Auth */}
       <Route path="/login" element={<Login />} />

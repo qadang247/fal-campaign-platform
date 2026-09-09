@@ -12,12 +12,23 @@ export const CONSTITUENCY = "Eti-Osa Federal Constituency";
 export const PARTY = "All Progressives Congress (APC)";
 export const POSITION = "House of Representatives";
 
+// Base URL of the external PHP/Laravel API. Forms and data calls post here.
+// Set this once the API is deployed.
+export const API_BASE = "";
+
+export const WARDS = Array.from({ length: 27 }, (_, i) => `Ward ${String(i + 1).padStart(2, "0")}`);
+
+export const ISSUE_CATEGORIES = [
+  "Education", "Health", "Employment", "Infrastructure",
+  "Youth", "Women", "Business", "Security", "Environment", "Others",
+];
+
 export const NAV_ITEMS = [
   { label: "Home", href: "/" },
-  { label: "About Fuad", href: "/#about" },
-  { label: "VOICES", href: "/#voices" },
-  { label: "Ward Map", href: "/#wards" },
-  { label: "Events", href: "/#events" },
-  { label: "Media", href: "/#media" },
-  { label: "Volunteer", href: "/#volunteer" },
+  { label: "About Fuad", href: "/about" },
+  { label: "VOICES", href: "/voices" },
+  { label: "Ward Map", href: "/wards" },
+  { label: "Events", href: "/events" },
+  { label: "Media", href: "/media" },
+  { label: "Volunteer", href: "/volunteer" },
 ];

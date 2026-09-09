@@ -65,7 +65,7 @@ export default function Home() {
             <Reveal delay={0.24}>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button variant="hope" size="lg" asChild>
-                  <Link to="/#join">
+                  <Link to="/volunteer">
                     <HandHeart className="h-4 w-4" /> Join the Movement
                   </Link>
                 </Button>
@@ -75,15 +75,15 @@ export default function Home() {
                   className="border-white/25 text-white hover:bg-white/10 hover:text-white"
                   asChild
                 >
-                  <Link to="/#volunteer">
+                  <Link to="/volunteer">
                     <Users className="h-4 w-4" /> Volunteer
                   </Link>
                 </Button>
                 <Button variant="gold" size="lg" asChild>
-                  <Link to="/#donate">Donate</Link>
+                  <Link to="/donate">Donate</Link>
                 </Button>
                 <Button variant="ghost" size="lg" className="text-white hover:bg-white/10 hover:text-white" asChild>
-                  <Link to="/#voices">
+                  <Link to="/voices">
                     <Mic className="h-4 w-4" /> Add Your Voice
                   </Link>
                 </Button>

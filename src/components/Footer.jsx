@@ -15,28 +15,28 @@ const COLUMNS = [
   {
     title: "The Movement",
     links: [
-      { label: "About Fuad", href: "/#about" },
-      { label: "Manifesto", href: "/#manifesto" },
-      { label: "Priority Issues", href: "/#issues" },
-      { label: "VOICES", href: "/#voices" },
+      { label: "About Fuad", href: "/about" },
+      { label: "Manifesto", href: "/about" },
+      { label: "Priority Issues", href: "/about" },
+      { label: "VOICES", href: "/voices" },
     ],
   },
   {
     title: "Get Involved",
     links: [
-      { label: "Volunteer", href: "/#volunteer" },
-      { label: "Donate", href: "/#donate" },
-      { label: "Events", href: "/#events" },
-      { label: "Ward Map", href: "/#wards" },
+      { label: "Volunteer", href: "/volunteer" },
+      { label: "Donate", href: "/donate" },
+      { label: "Events", href: "/events" },
+      { label: "Ward Map", href: "/wards" },
     ],
   },
   {
     title: "Media",
     links: [
-      { label: "News", href: "/#news" },
-      { label: "Gallery", href: "/#gallery" },
-      { label: "Videos", href: "/#videos" },
-      { label: "Press Releases", href: "/#press" },
+      { label: "News", href: "/media" },
+      { label: "Gallery", href: "/media" },
+      { label: "Videos", href: "/media" },
+      { label: "FAQ", href: "/faq" },
     ],
   },
 ];
